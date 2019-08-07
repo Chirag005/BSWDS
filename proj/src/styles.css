@@ -1,7 +1,43 @@
+
 body{
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
     background: url(p1_wds.jpg) no-repeat;
     background-size: cover;
+  
 }
+
+.login-box{
+    width: 200px;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    /*transform: translate(-50%,-50%)*/
+    color: white;
+    text-align: center;
+  
+}
+
+ul{
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    color: white;
+  
+}
+
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  xx-large;
+    line-height: 80px;
+    text-align: center;
+    float: center;
+    width: stretch;
+    height: 80px;
+    background-color: black;
+    opacity: 0.6;
+    text-decoration: none;
+    display: block;
+}
+
