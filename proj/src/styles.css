@@ -3,7 +3,7 @@ body{
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    background: url(p1_wds.jpg) no-repeat;
+    background: url(abstract-minimal-blur-5k-jj-2560x1440.jpg) no-repeat;
     background-size: cover;
   
 }
@@ -13,9 +13,8 @@ body{
     position: absolute;
     top: 35%;
     left: 43%;
-    /*transform: translate(-50%,-50%)*/
     color: white;
-    text-align: center;
+    /*text-align: center;*/
   
 }
 
@@ -36,8 +35,11 @@ ul li{
     width: stretch;
     height: 80px;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.7;
     text-decoration: none;
     display: block;
 }
 
+hr{
+    width:100px;
+}
