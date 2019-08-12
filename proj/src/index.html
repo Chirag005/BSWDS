@@ -2,9 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-      <title>Bangalore Smart Water Distribution System</title>
+    <title>Bangalore Smart Water Distribution System</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
+
   <body>
     <div>
       <ul>
@@ -15,15 +20,27 @@
     <div class="login-box">
       <h1>LOGIN</h1>
       <hr />
+
       <div class="textbox">
-        <input type="text" placeholder=" User" name="" value="" />
+        <i class="fa fa-user fa-2x cust" aria-hidden="true"></i>
+        <input type="text" placeholder=" User id " name="" value="" />
       </div>
 
       <div class="textbox">
+        <i class="fa fa-lock fa-2x cust" aria-hidden="true"></i>
         <input type="password" placeholder=" Password" name="" value="" />
       </div>
 
-      <input class="button" type="button" value="Sign in" />
+      <div>
+        <input class="button" type="submit" id="but1" value="Log in" />
+        <input class="button" type="submit" id="but2" value="Sign up" />
+      </div>
+
+      <div>
+        <p></p>
+        <p></p>
+        <a href="#">Forgot password?</a>
+      </div>
     </div>
 
     <script>

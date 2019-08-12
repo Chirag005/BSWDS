@@ -1,45 +1,102 @@
-
-body{
-    margin: 0%;
-    padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    background: url(abstract-minimal-blur-5k-jj-2560x1440.jpg) no-repeat;
-    background-size: cover;
-  
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(abstract-minimal-blur-5k-jj-2560x1440.jpg) no-repeat;
+  background-size: cover;
 }
 
-.login-box{
-    width: 200px;
+ul {
+  margin: 10px;
+  padding: 5px;
+  list-style: none;
+  color: white;
+}
+
+ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  line-height: 80px;
+  text-align: center;
+  float: center;
+  width: stretch;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+  /*opacity: 0.7*/
+  text-decoration: none;
+  display: block;
+}
+
+.login-box {
+  width: 400px;
+  height: 380px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-left: 480px;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding-top: 20px;
+
+  /*text-align: center;*/
+}
+
+hr {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+input {
+  height: 35px;
+  width: 250px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+#but1 {
+  width: 100px;
+  height: 30px;
+  padding-left: 25px;
+  padding-right: 40px;
+}
+#but1:hover {
+  background-color: rgba(50, 235, 59, 0.767);
+}
+
+#but2 {
+  width: 100px;
+  height: 30px;
+  padding-left: 16px;
+  padding-right: 70px;
+}
+
+input[type="submit"] {
+  padding: 0px 0px 0px 5px;
+  margin: 7px 10px 10px 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(30, 46, 190);
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(224, 45, 45, 0.808);
+}
+
+a {
+  padding-top: 40px;
+  text-decoration: underline;
+  color: rgb(34, 192, 212);
+}
+a:hover {
+  color: beige;
+}
+
+.cust{
     position: absolute;
-    top: 35%;
-    left: 43%;
-    color: white;
-    /*text-align: center;*/
-  
-}
-
-ul{
-    margin: 10px;
-    padding: 5px;
-    list-style: none;
-    color: white;
-  
-}
-
-ul li{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:  xx-large;
-    line-height: 80px;
-    text-align: center;
-    float: center;
-    width: stretch;
-    height: 80px;
-    background-color: black;
-    opacity: 0.7;
-    text-decoration: none;
-    display: block;
-}
-
-hr{
-    width:100px;
+    background:rgb(255, 255, 255);
+    color: black;
+    margin: 5px 5px 5px 8px;
 }
