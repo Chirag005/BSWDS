@@ -70,7 +70,7 @@ input {
   background-color: rgba(50, 235, 59, 0.767);
 }
 
-/*#but1:focus {
+#but1:focus {
     outline:none;
 }
 
@@ -118,7 +118,7 @@ input {
   opacity: 1;
   transition: 0.7s;
 }
-*/
+
 
 #but2 {
   width: 120px;
